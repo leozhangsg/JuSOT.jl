@@ -4,26 +4,11 @@
 #  file, You can obtain one at http://mozilla.org/MPL/2.0/.
 #############################################################################
 # JuSO
-# Surrogate Optimization package for Julia
+#
 # See http://github.com/zhangliye/JuSO.jl
 #############################################################################
-module JuSOT
 
-export
-# Classes
-  SoModel,
-#function
-  test_function1, test_ut1
-
-include("utils.jl")
-
-type SoModel
-  name::ASCIIString
-end
-
-function test_function1()
-  println("i am test_function1()")
+function test_ut1()
+  println("I am test_ut1()")
   return 1
 end
-
-end # module
